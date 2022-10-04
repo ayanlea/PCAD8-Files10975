@@ -51,16 +51,15 @@ namespace ProgramFlow
                 Console.WriteLine("Long course name");
                 Console.WriteLine("Course is " + courseName.Length + " strings long");
             }
-            bool classInProgram = CourseInProgram(courses,courseName);
+            bool classInProgram = CourseInProgram(courses, courseName);
             Console.WriteLine("classInProgram is " + classInProgram);
             AssignmentIsDue("quiz");
-            double[] grades = new double[] { 80.4, 78.9, 87.6, 98.3 };
             CalculateAverage();
             UserProvidedGrades();
 
 
         }
-        static bool CourseInProgram(string[] classes,string course)
+        static bool CourseInProgram(string[] classes, string course)
         {
             bool localVar = false;
             for (int i = 0; i < classes.Length; i++)
@@ -99,24 +98,27 @@ namespace ProgramFlow
         {
             double[] grades = new double[] { 89, 98, 99, 90, 95 };
             double total = 0;
-            for(int i = 0; i < grades.Length; i++)
+            for (int i = 0; i < grades.Length; i++)
             {
                 total += grades[i];
-                Console.WriteLine(total +=grades[i]);
+                // Console.WriteLine(total +=grades[i]);
             }
-            Console.WriteLine("GPA is " + total/grades.Length);
+            Console.WriteLine("GPA is " + total / grades.Length);
 
         }
         static void UserProvidedGrades()
         {
             int count = 0;
             double myGrade = 0;
-            do {
+            while (count < 5)
+            {
+                count++;
                 Console.WriteLine("Enter your grade");
                 myGrade += double.Parse(Console.ReadLine());
-                Console.WriteLine("GPA so far is " + (myGrade / count));
-                count++;
-            } while(count < 5);
+            }
+            Console.WriteLine("GPA so far is " + (myGrade / count));
+            Console.ReadKey();
+
         }
     }
 }

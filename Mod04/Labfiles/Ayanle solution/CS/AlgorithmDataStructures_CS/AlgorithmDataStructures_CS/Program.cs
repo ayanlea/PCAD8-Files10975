@@ -13,7 +13,18 @@ namespace AlgorithmDataStructures_CS
         static void Main(string[] args)
         {
 
+            // create list of topics you want to learn
+            string[] myCourseTopics = new string[] { "Computer Science", "Intro to A.I.", "Robotics", "Machine Learning" };
+
+
+            // create a list of courses
+            string[] courses = new string[] { "Computer Science", "Intro to A.I.", "Robotics", "Machine Learning", "Cooking", "Physical Health and Nutrition Science" };
+            // loop thru myCourseTopics and check if it is in courses
             
+            
+            string[] userCourseList = new string[4];
+            addCourseToList(userCourseList);
+            displayEnrolledCourses(userCourseList);
 
             // Create an array here called grdsArray with these values: 80, 90, 100, 95, 85
             float[] grdsArray = new float[] { 80, 90, 100, 95, 85 };
@@ -65,7 +76,27 @@ namespace AlgorithmDataStructures_CS
         }
 
 
+        
 
+        static void addCourseToList(string[] userCourseList)
+        {
+            int count = 0;
+            string course = Console.ReadLine();
+            while (count < 4 && course != null)
+            {
+                userCourseList[count] = course;
+                
+            }
+
+        }
+        static void displayEnrolledCourses(string[] courses)
+        {
+
+            for (int i = 0; i < courses.Length; i++)
+            {
+                Console.WriteLine("You are now enrolled in " + courses[i]);
+            }
+        }
         static void addGrades(float[] grdArray)
         {
             double total = 0;

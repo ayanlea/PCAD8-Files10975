@@ -44,13 +44,17 @@ namespace AlgorithmDataStructures_CS
 
             // The popStack method will display each popped item to the console window
             popStack(myStack);
-            
-            // Create a new SortedList object called myCourses
+            popStack(myStack);
+
+            // Create a new SortedList object called myCourses            
             // Call the populateList() method
+            SortedList myCourses = populateList();
+
 
             // display a course in the list by passing a key
+            displayList(myCourses, "CS101");
             // Remove an item from the myCourses list using the key
-
+            removeListItem(myCourses, "CS101");
         }
 
 
@@ -119,18 +123,40 @@ namespace AlgorithmDataStructures_CS
             Console.WriteLine("Item removed from the stack: " + stackItem);
         }
 
-        static void populateList(SortedList list)
+        static SortedList populateList()
         {
+            SortedList list = new SortedList();
+            list.Add("CS101","Introduction to Computer Science");
+            list.Add("CS102","Data Structures and Algorithm Analysis");
+            list.Add("CS201","Introduction to Databases");
+            list.Add("CS301","Introduction to Object-Oriented Programming");
+
+            return list;
 
         }
 
         static void displayList(SortedList list, string key)
         {
-
+            foreach(SortedList course in list)
+            {
+                if(course.Key == key)
+                {
+                    Console.WriteLine("Found this: " + course.Key +": "+course.Values);
+                }
+            }
         }
 
         static void removeListItem(SortedList list, string key)
         {
+             foreach(SortedList course in list)
+            {
+                if(course.Key == key)
+                {
+                    course.Remove(key);
+                }
+            }
+            
+           Console.WriteLine(list);
 
         }
     }

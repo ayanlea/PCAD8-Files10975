@@ -1,0 +1,3 @@
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod04\Labfiles\Ayanle solution\CS\AlgorithmDataStructures_CS\AlgorithmDataStructures_CS\obj\Debug\AlgorithmDataStructures_CS.csproj.AssemblyReference.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod04\Labfiles\Ayanle solution\CS\AlgorithmDataStructures_CS\AlgorithmDataStructures_CS\obj\Debug\AlgorithmDataStructures_CS.csproj.SuggestedBindingRedirects.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod04\Labfiles\Ayanle solution\CS\AlgorithmDataStructures_CS\AlgorithmDataStructures_CS\obj\Debug\AlgorithmDataStructures_CS.csproj.CoreCompileInputs.cache

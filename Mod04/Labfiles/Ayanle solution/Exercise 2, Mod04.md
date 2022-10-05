@@ -39,8 +39,6 @@ namespace AlgorithmDataStructures_CS
             // Call the addGrades method, passing it the grdsArray
             addGrades(grdsArray);
             
-            // After adding grades to the array, call the displayGrades method
-            displayGrades(grdsArray);
 
         }
         static void addCourseToList(string[] userCourseList)
@@ -62,6 +60,7 @@ namespace AlgorithmDataStructures_CS
                 Console.WriteLine("You are now enrolled in " + courses[i]);
             }
         }
+        
         static void addGrades(float[] grdArray)
         {
             double total = 0;
@@ -72,6 +71,9 @@ namespace AlgorithmDataStructures_CS
             }
             average = total / grdArray.Length;
             Console.WriteLine("The average grade is {0}", average);
+
+            // After adding grades to the array, call the displayGrades method
+            displayGrades(grdArray);
 
         }
 

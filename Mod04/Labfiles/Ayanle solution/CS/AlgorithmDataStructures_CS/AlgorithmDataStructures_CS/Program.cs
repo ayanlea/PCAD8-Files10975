@@ -55,6 +55,8 @@ namespace AlgorithmDataStructures_CS
             displayList(myCourses, "CS101");
             // Remove an item from the myCourses list using the key
             removeListItem(myCourses, "CS101");
+
+            Console.ReadKey();
         }
 
 
@@ -87,12 +89,13 @@ namespace AlgorithmDataStructures_CS
         }
         static void addCourseToList(string[] userCourseList)
         {
+            Console.WriteLine("addCourseToList");
             int count = 0;
-            string course = Console.ReadLine();
-            while (count < 4 && course != null)
+            while (count < 4)
             {
+                string course = Console.ReadLine();
                 userCourseList[count] = course;
-
+                count++;
             }
 
         }
@@ -137,26 +140,24 @@ namespace AlgorithmDataStructures_CS
 
         static void displayList(SortedList list, string key)
         {
-            foreach(SortedList course in list)
-            {
-                if(course.Key == key)
-                {
-                    Console.WriteLine("Found this: " + course.Key +": "+course.Values);
-                }
-            }
+            int index;
+            string course;
+            index = list.IndexOfKey(key);
+            course = (string)list.GetByIndex(index);
+            Console.WriteLine(course);
+
         }
 
         static void removeListItem(SortedList list, string key)
         {
-             foreach(SortedList course in list)
-            {
-                if(course.Key == key)
-                {
-                    course.Remove(key);
-                }
-            }
-            
-           Console.WriteLine(list);
+
+            int index;
+            string course;
+            index = list.IndexOfKey(key);
+            course = (string)list.GetByIndex(index);
+            list.Remove(key);
+            Console.WriteLine(course + " was removed from the list.");
+
 
         }
     }

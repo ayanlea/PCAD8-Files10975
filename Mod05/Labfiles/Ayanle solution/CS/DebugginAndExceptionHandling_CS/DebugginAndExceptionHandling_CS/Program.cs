@@ -42,9 +42,14 @@ namespace DebugginAndExceptionHandling_CS
 
                     newCourse.gradePoints = int.Parse(Console.ReadLine());
                     courseList[counter] = newCourse;
-                } catch(Exception ex)
+                }
+                catch (FormatException ex)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("FormatException Error: " + ex.Message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Exception Error: " + ex.Message);
                 }
                 finally
                 {
@@ -75,11 +80,11 @@ namespace DebugginAndExceptionHandling_CS
             } catch (DivideByZeroException ex)
             {
                 result = 0.0;
-                Console.WriteLine("Error :" + ex.Message);
+                Console.WriteLine("DivideByZeroException Error :" + ex.Message);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error :" + ex.Message);
+                Console.WriteLine("Exception Error :" + ex.Message);
             }
             finally
             {

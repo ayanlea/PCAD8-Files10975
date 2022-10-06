@@ -1,0 +1,10 @@
+C:\Users\gerryo\Documents\10975A\Source\Allfiles\Mod05\Labfiles\Starter\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\bin\Debug\DebugginAndExceptionHandling_CS.exe.config
+F:\Allfiles\Mod05\Labfiles\Starter\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\bin\Debug\DebugginAndExceptionHandling_CS.exe.config
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod05\Labfiles\Ayanle solution\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\bin\Debug\DebugginAndExceptionHandling_CS.exe.config
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod05\Labfiles\Ayanle solution\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\bin\Debug\DebugginAndExceptionHandling_CS.exe
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod05\Labfiles\Ayanle solution\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\bin\Debug\DebugginAndExceptionHandling_CS.pdb
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod05\Labfiles\Ayanle solution\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\obj\Debug\DebugginAndExceptionHandling_CS.csproj.AssemblyReference.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod05\Labfiles\Ayanle solution\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\obj\Debug\DebugginAndExceptionHandling_CS.csproj.SuggestedBindingRedirects.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod05\Labfiles\Ayanle solution\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\obj\Debug\DebugginAndExceptionHandling_CS.csproj.CoreCompileInputs.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod05\Labfiles\Ayanle solution\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\obj\Debug\DebugginAndExceptionHandling_CS.exe
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod05\Labfiles\Ayanle solution\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\obj\Debug\DebugginAndExceptionHandling_CS.pdb

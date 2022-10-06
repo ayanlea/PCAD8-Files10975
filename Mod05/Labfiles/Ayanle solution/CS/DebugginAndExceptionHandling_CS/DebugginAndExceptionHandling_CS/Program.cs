@@ -20,6 +20,7 @@ namespace DebugginAndExceptionHandling_CS
             course[] courseList = PopulateTranscript();
             double GPA = GetGPA(courseList);
             Console.WriteLine("Your GPA is currently: " + GPA);
+            Console.ReadLine();
         }
 
         private static course[] PopulateTranscript()
@@ -31,14 +32,20 @@ namespace DebugginAndExceptionHandling_CS
                 course newCourse = new course();
                 Console.WriteLine("Enter a course name");
 
-                newCourse.courseName = Console.ReadLine();
-                Console.WriteLine("Enter the credit hours for this course");
+                try
+                {
+                    newCourse.courseName = Console.ReadLine();
+                    Console.WriteLine("Enter the credit hours for this course");
 
-                newCourse.creditHours = Console.ReadLine();
-                Console.WriteLine("Enter your grade points for this course");
+                    newCourse.creditHours = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter your grade points for this course");
 
-                newCourse.gradePoints = Console.ReadLine();
-                courseList[counter] = newCourse;
+                    newCourse.gradePoints = int.Parse(Console.ReadLine());
+                    courseList[counter] = newCourse;
+                } catch(Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
                 
             }
 
@@ -57,7 +64,23 @@ namespace DebugginAndExceptionHandling_CS
                 totalGradePoints += currentCourse.gradePoints;
             }
 
-            result = totalGradePoints / totalCredHours;
+            try
+            {
+                result = totalGradePoints / totalCredHours;
+            } catch (DivideByZeroException ex)
+            {
+                result = 0.0;
+                Console.WriteLine("Error :" + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error :" + ex.Message);
+            }
+            finally
+            {
+                GC.Collect();
+                Console.WriteLine("try-catch block completed!");
+            }
 
             return result;
         }

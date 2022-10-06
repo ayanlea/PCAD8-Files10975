@@ -1,2 +1,0 @@
-C:\Users\gerryo\Documents\10975A\Source\Allfiles\Mod05\Labfiles\Starter\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\bin\Debug\DebugginAndExceptionHandling_CS.exe.config
-F:\Allfiles\Mod05\Labfiles\Starter\CS\DebugginAndExceptionHandling_CS\DebugginAndExceptionHandling_CS\bin\Debug\DebugginAndExceptionHandling_CS.exe.config

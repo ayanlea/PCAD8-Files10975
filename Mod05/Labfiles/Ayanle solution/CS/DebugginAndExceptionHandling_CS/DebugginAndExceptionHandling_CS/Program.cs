@@ -46,7 +46,12 @@ namespace DebugginAndExceptionHandling_CS
                 {
                     Console.WriteLine("Error: " + ex.Message);
                 }
-                
+                finally
+                {
+                    GC.Collect();
+                    Console.WriteLine("try-catch block completed!");
+                }
+
             }
 
             return courseList;

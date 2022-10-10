@@ -1,0 +1,8 @@
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod06\Labfiles\AyanleSolution\CS\StructLab_CS\StructLab_CS\bin\Debug\StructLab_CS.exe.config
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod06\Labfiles\AyanleSolution\CS\StructLab_CS\StructLab_CS\bin\Debug\StructLab_CS.exe
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod06\Labfiles\AyanleSolution\CS\StructLab_CS\StructLab_CS\bin\Debug\StructLab_CS.pdb
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod06\Labfiles\AyanleSolution\CS\StructLab_CS\StructLab_CS\obj\Debug\StructLab_CS.csproj.AssemblyReference.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod06\Labfiles\AyanleSolution\CS\StructLab_CS\StructLab_CS\obj\Debug\StructLab_CS.csproj.SuggestedBindingRedirects.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod06\Labfiles\AyanleSolution\CS\StructLab_CS\StructLab_CS\obj\Debug\StructLab_CS.csproj.CoreCompileInputs.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod06\Labfiles\AyanleSolution\CS\StructLab_CS\StructLab_CS\obj\Debug\StructLab_CS.exe
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod06\Labfiles\AyanleSolution\CS\StructLab_CS\StructLab_CS\obj\Debug\StructLab_CS.pdb

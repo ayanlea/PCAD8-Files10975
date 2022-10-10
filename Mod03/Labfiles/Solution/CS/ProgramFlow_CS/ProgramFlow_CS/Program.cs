@@ -16,8 +16,9 @@ namespace ProgramFlow_CS
             DisplayReminders("Wednesday");
             CalculateAverage();
             CalculateAverageWithWhile();
-        }
 
+        }
+        
         static void SetInstructorName(string newName)
         {
             string instructorName = newName;

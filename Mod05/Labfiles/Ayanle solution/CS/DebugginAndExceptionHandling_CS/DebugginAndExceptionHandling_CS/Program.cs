@@ -8,13 +8,16 @@ namespace DebugginAndExceptionHandling_CS
 {
     class Program
     {
+        #region struct course
         struct course
 	    {
             public string courseName;
 		    public int creditHours;
             public int gradePoints;
 	    };
+        #endregion
 
+        #region Main method
         static void Main(string[] args)
         {
             course[] courseList = PopulateTranscript();
@@ -22,12 +25,14 @@ namespace DebugginAndExceptionHandling_CS
             Console.WriteLine("Your GPA is currently: " + GPA);
             Console.ReadLine();
         }
+        #endregion
 
+        #region PopulateTranscript()
         private static course[] PopulateTranscript()
         {
             course[] courseList = new course[5];
-
-            for(int counter = 0; counter < courseList.Length; counter++)
+            #region For-loop: courseList
+            for (int counter = 0; counter < courseList.Length; counter++)
             {
                 course newCourse = new course();
                 Console.WriteLine("Enter a course name");
@@ -58,10 +63,12 @@ namespace DebugginAndExceptionHandling_CS
                 }
 
             }
-
+            #endregion
             return courseList;
         }
+        #endregion
 
+        #region GetGPA(course[] courseList)
         private static double GetGPA(course[] courseList)
         {
             double result = 0.0;
@@ -94,5 +101,6 @@ namespace DebugginAndExceptionHandling_CS
 
             return result;
         }
+        #endregion
     }
 }

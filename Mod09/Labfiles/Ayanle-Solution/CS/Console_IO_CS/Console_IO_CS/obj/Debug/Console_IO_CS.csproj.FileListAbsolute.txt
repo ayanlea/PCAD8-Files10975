@@ -1,0 +1,8 @@
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod09\Labfiles\Ayanle-Solution\CS\Console_IO_CS\Console_IO_CS\bin\Debug\Console_IO_CS.exe.config
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod09\Labfiles\Ayanle-Solution\CS\Console_IO_CS\Console_IO_CS\bin\Debug\Console_IO_CS.exe
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod09\Labfiles\Ayanle-Solution\CS\Console_IO_CS\Console_IO_CS\bin\Debug\Console_IO_CS.pdb
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod09\Labfiles\Ayanle-Solution\CS\Console_IO_CS\Console_IO_CS\obj\Debug\Console_IO_CS.csproj.AssemblyReference.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod09\Labfiles\Ayanle-Solution\CS\Console_IO_CS\Console_IO_CS\obj\Debug\Console_IO_CS.csproj.SuggestedBindingRedirects.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod09\Labfiles\Ayanle-Solution\CS\Console_IO_CS\Console_IO_CS\obj\Debug\Console_IO_CS.csproj.CoreCompileInputs.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod09\Labfiles\Ayanle-Solution\CS\Console_IO_CS\Console_IO_CS\obj\Debug\Console_IO_CS.exe
+C:\Users\ayanl\Projects\PCAD8-Files10975\Mod09\Labfiles\Ayanle-Solution\CS\Console_IO_CS\Console_IO_CS\obj\Debug\Console_IO_CS.pdb

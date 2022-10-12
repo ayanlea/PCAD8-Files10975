@@ -1,4 +1,3 @@
-```C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -98,23 +97,8 @@ namespace File_IO_CS
             Console.WriteLine($"Name: {newStudent.FirstName} {newStudent.LastName}");
             Console.WriteLine($"Age & Gender: {newStudent.Age} {newStudent.Gender}");
 
-            try
-            {
-                StreamWriter sw = new StreamWriter("C:\\Users\\ayanl\\Downloads\\StudentData.txt");
-                string textData = "You have entered the following:";
-                textData += $"Name: {newStudent.FirstName} {newStudent.LastName} \n";
-                textData += $"Age & Gender: {newStudent.Age} {newStudent.Gender}";
-                sw.WriteLine(textData);
-                sw.Close();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Exception: " + e.Message);
-            }
-            finally
-            {
-                Console.WriteLine("Executing finally block.");
-            }
+
+            SaveToFile(newStudent, "newStudentData.txt");
         }
         private static void InstructorForm()
         {
@@ -148,12 +132,16 @@ namespace File_IO_CS
             Console.WriteLine($"Name: {newInstructor.FirstName} {newInstructor.LastName}");
             Console.WriteLine($"Age & Gender: {newInstructor.Age} {newInstructor.Gender}");
 
+            SaveToFile(newInstructor, "NewInstructor.txt");
+        }
+        private static void SaveToFile(Person person,string fname)
+        {
             try
             {
-                StreamWriter sw = new StreamWriter("C:\\Users\\ayanl\\Downloads\\newInstructorData.txt");
+                StreamWriter sw = new StreamWriter("C:\\Users\\ayanl\\Downloads\\"+fname);
                 string textData = "You have entered the following:";
-                textData += $"Name: {newInstructor.FirstName} {newInstructor.LastName} \n";
-                textData += $"Age & Gender: {newInstructor.Age} {newInstructor.Gender}";
+                textData += $"Name: {person.FirstName} {person.LastName} \n";
+                textData += $"Age & Gender: {person.Age} {person.Gender}";
                 sw.WriteLine(textData);
                 sw.Close();
             }
@@ -166,9 +154,5 @@ namespace File_IO_CS
                 Console.WriteLine("Executing finally block.");
             }
         }
-    
     }
 }
-
-
-```

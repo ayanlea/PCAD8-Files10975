@@ -71,34 +71,7 @@ namespace File_IO_CS
 
             Console.WriteLine("You have selected Student and now we need some info to register you");
 
-            string first; 
-            string last; 
-            string gender; 
-            int age;
-
-            Console.WriteLine("What is your first name");
-            Console.ReadLine();
-            first = Convert.ToString(Console.ReadLine());
-
-
-            Console.WriteLine("What is your last name");
-            last = Convert.ToString(Console.ReadLine());
-
-            Console.WriteLine("What is your gender"); 
-            gender = Convert.ToString(Console.ReadLine());
-
-
-            Console.WriteLine("What is your age");
-            age = Convert.ToInt16(Console.ReadLine());
-
-
-            Student newStudent = new Student(first, last, gender, age);
-            Console.WriteLine();
-            Console.WriteLine("You have entered the following:");
-            Console.WriteLine($"Name: {newStudent.FirstName} {newStudent.LastName}");
-            Console.WriteLine($"Age & Gender: {newStudent.Age} {newStudent.Gender}");
-
-
+            Person newStudent = Formfields();
             SaveToFile(newStudent, "newStudentData.txt");
         }
         private static void InstructorForm()
@@ -106,6 +79,13 @@ namespace File_IO_CS
 
             Console.WriteLine("You have selected Instructor and now we need some info to register you");
 
+            Person newInstructor = Formfields();
+
+            SaveToFile(newInstructor, "NewInstructor.txt");
+        }
+
+        private static Person Formfields()
+        {
             string first;
             string last;
             string gender;
@@ -126,21 +106,23 @@ namespace File_IO_CS
             Console.WriteLine("What is your age");
             age = Convert.ToInt16(Console.ReadLine());
 
-
-            Instructor newInstructor = new Instructor(first, last, gender, age);
             Console.WriteLine();
             Console.WriteLine("You have entered the following:");
-            Console.WriteLine($"Name: {newInstructor.FirstName} {newInstructor.LastName}");
-            Console.WriteLine($"Age & Gender: {newInstructor.Age} {newInstructor.Gender}");
+            Console.WriteLine($"Name: {first} {last}");
+            Console.WriteLine($"Age & Gender: {age} {gender}");
 
-            SaveToFile(newInstructor, "NewInstructor.txt");
+            Student newStudent = new Student(first, last, gender, age);
+            return newStudent;
+
+
         }
-        private static void SaveToFile(Person person,string fname)
+
+        private static void SaveToFile(Person person, string fname)
         {
             try
             {
-                StreamWriter sw = new StreamWriter("C:\\Users\\ayanl\\Downloads\\"+fname);
-                string textData = "You have entered the following:";
+                StreamWriter sw = new StreamWriter("C:\\Users\\ayanl\\Downloads\\" + fname);
+                string textData = "You have entered the following: \n";
                 textData += $"Name: {person.FirstName} {person.LastName} \n";
                 textData += $"Age & Gender: {person.Age} {person.Gender}";
                 sw.WriteLine(textData);
@@ -157,4 +139,5 @@ namespace File_IO_CS
         }
     }
 }
+
 ```

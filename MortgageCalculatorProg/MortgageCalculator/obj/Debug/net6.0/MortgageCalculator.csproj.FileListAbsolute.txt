@@ -1,0 +1,15 @@
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\bin\Debug\net6.0\MortgageCalculator.exe
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\bin\Debug\net6.0\MortgageCalculator.deps.json
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\bin\Debug\net6.0\MortgageCalculator.runtimeconfig.json
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\bin\Debug\net6.0\MortgageCalculator.dll
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\bin\Debug\net6.0\MortgageCalculator.pdb
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\MortgageCalculator.csproj.AssemblyReference.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\MortgageCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\MortgageCalculator.AssemblyInfoInputs.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\MortgageCalculator.AssemblyInfo.cs
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\MortgageCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\MortgageCalculator.dll
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\refint\MortgageCalculator.dll
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\MortgageCalculator.pdb
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\MortgageCalculator.genruntimeconfig.cache
+C:\Users\ayanl\Projects\PCAD8-Files10975\MortgageCalculatorProg\MortgageCalculator\obj\Debug\net6.0\ref\MortgageCalculator.dll
